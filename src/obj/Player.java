@@ -1,14 +1,15 @@
-package game.obj;
+
+package src.obj;
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.geom.AffineTransform;
 import javax.swing.ImageIcon;
 
-public class Player {
-
-    public Player() {
-      this.image = new ImageIcon (getClass().getResource("/airplane.png")).getImage();
-      this.image_speed= new ImageIcon (getClass().getResource("/game/image/plane_speed.png")).getImage();
+public class Player 
+{
+      public Player() {
+      this.image = new ImageIcon (getClass().getResource("src/images/airplane.png")).getImage();
+      this.image_speed= new ImageIcon (getClass().getResource("src/images/plane_speed.png")).getImage();
     }
 
 public static final double PLAYER_SIZE = 64;
